@@ -2,6 +2,8 @@
 
 This is a python based chat application
 
+Example Image:
+![alt text](https://github.com/gowtham-star/Chat-Application/blob/master/COMBINED_CHAT__60.jpg?raw=true)
 
 Steps to use:
 
