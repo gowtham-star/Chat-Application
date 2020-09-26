@@ -1,0 +1,9 @@
+ STUDENT DETAILS:
+     
+    NAME		ROLL NO		SECTION	
+
+1) Ruthvik		900100		Minds
+2) Gita		900150		Hearts
+3) Sumanth	900200		Young
+4) Manikanta	900287		Hearts
+5) Rupesh		910000		Minds
