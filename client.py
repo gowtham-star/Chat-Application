@@ -1,7 +1,7 @@
 import time
 import socket
 import sys
-from Tkinter import *
+from tkinter import *
 
 def sendmessage():
     output1=en.get()
@@ -20,7 +20,7 @@ def recvmessage():
     recvmessage.cnt=recvmessage.cnt+2
 def recvdocument():
     data=s.recv(1024)       
-    print data
+    print(data)
     f=open("recievedfile2.txt","w")
     f.write(data)
        
@@ -28,7 +28,7 @@ def recvdocument():
 def senddocument():
     fname=en2.get()
     f = open(fname, 'rb')
-    print "Sending Data ...."  
+    print("Sending Data ....")  
     l = f.read()
     while True:      
         for line in l:
@@ -44,10 +44,10 @@ time.sleep(1)
 
 s=socket.socket()
 print("")
-host=raw_input(str("Enter the Server Address:"))
+host=input(str("Enter the Server Address:"))
 print("")
-name=raw_input(str("Please Enter Your Name:"))
-port=700
+name=input(str("Please Enter Your Name:"))
+port=3250
 print("")
 print("trying to connect to",host,"at port",port)
 print("")
